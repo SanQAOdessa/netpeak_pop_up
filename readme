@@ -1,0 +1,11 @@
+python 3.9
+
+to install requirements run command:
+pip install -r requirements.txt
+
+or manually install next:
+pip install -U selenium
+pip install ddt
+
+run tests:
+python main.py -v
