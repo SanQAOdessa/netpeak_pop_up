@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  pop_ups:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: python main.py
+    volumes:
+      - type: bind
+        source: ./
+        target: /src/
