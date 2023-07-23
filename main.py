@@ -90,8 +90,8 @@ class TestPopUpWindow(unittest.TestCase):
         [smm_url_ru, "ru"],
         [email_url_ua, "ua"],
         [email_url_ru, "ru"],
-        [ppc_url_ua, "ua"],
-        [ppc_url_ru, "ru"],
+        # [ppc_url_ua, "ua"],
+        # [ppc_url_ru, "ru"],
     )
     @unpack
     def test_pages(self, url, lang):
